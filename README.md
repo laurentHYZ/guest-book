@@ -29,9 +29,9 @@ Exploring The Code
    the NEAR blockchain when you run `yarn deploy:contract`. This sort of
    code-that-runs-on-a-blockchain is called a "smart contract" – [learn more
    about NEAR smart contracts][smart contract docs].
-2. The frontend code lives in the `/src` folder.
-   [/src/index.html](/src/index.html) is a great place to start exploring. Note
-   that it loads in `/src/index.js`, where you can learn how the frontend
+2. The frontend code lives in the `/frontend` folder.
+   [/frontend/index.html](/frontend/index.html) is a great place to start exploring. Note
+   that it loads in `/frontend/index.js`, where you can learn how the frontend
    connects to the NEAR blockchain.
 3. Tests: there are different kinds of tests for the frontend and backend. The
    backend code gets tested with the [asp] command for running the backend
